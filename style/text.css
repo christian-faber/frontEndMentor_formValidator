@@ -1,0 +1,22 @@
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+p {
+  color: white;
+}
+.text {
+  margin-right: 7.5%;
+}
+
+@media (min-width: 520px) {
+  .text {
+    max-width: 500px;
+    margin-right: 7.5%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+}

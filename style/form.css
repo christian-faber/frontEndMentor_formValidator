@@ -1,6 +1,7 @@
 .form {
   margin: 25px auto;
   max-width: 540px;
+  min-width: 500px;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.35);

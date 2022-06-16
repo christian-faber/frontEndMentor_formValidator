@@ -15,3 +15,14 @@ body {
   font-weight: 500;
   background: var(--red) url(../images/bg-intro-desktop.png) center / cover;
 }
+
+.total {
+  display: flex;
+  margin: 10%;
+}
+
+@media (max-width: 1036px) {
+  .total {
+    flex-direction: column;
+  }
+}
